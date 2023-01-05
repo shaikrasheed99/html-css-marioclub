@@ -87,3 +87,32 @@ nav li a {
 nav li a:hover {
     background-color: bisque;
 }
+
+main {
+    max-width: 100%;
+    width: 3000px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+p::selection {
+    background-color: lightgray;
+    color: blue;
+}
+
+article h2 {
+    color: #F63232;
+    font-size: 48px;
+}
+
+article p {
+    padding: 10px;
+    line-height: 2em;
+    color: #4B4B4B;
+}
+
+article p::first-line {
+    font-size: larger;
+    font-weight: 900;
+}
