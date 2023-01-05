@@ -195,3 +195,36 @@ footer {
         font-size: 40px;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .banner .welcome {
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+    .banner .welcome h2 {
+        font-size: 25px;
+    }
+
+    .banner .welcome span {
+        font-size: 1em;
+    }
+
+    .banner .welcome br {
+        display: none;
+    }
+
+    nav li {
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        line-height: 40px;
+        margin: 12px 0;
+    }
+
+    .images li, .logo img {
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+}
