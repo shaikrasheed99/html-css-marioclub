@@ -172,3 +172,10 @@ form input:focus {
 form input:valid {
     border: 4px dashed green;
 }
+
+footer {
+    background-color: #F63232;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
