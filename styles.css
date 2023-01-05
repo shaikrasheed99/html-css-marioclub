@@ -22,3 +22,29 @@ header h1 {
 header h1:hover {
     background-color: black;
 }
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    max-width: 100%;
+    width: 3000px;
+}
+
+.banner .welcome {
+    background-color: #FEB614;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 45%;
+    padding: 30px;
+}
+
+.banner h2 {
+    font-size: 40px;
+}
+
+.banner h2 span {
+    font-size: 1.4em;
+}
