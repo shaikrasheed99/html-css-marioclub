@@ -48,3 +48,38 @@ header h1:hover {
 .banner h2 span {
     font-size: 1.4em;
 }
+
+nav {
+    background-color: #F4F4F4;
+    padding: 20px;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+nav li {
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+nav li a {
+    border: 2px dotted brown;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #4B4B4B;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: bisque;
+}
