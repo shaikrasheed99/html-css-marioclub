@@ -116,3 +116,8 @@ article p::first-line {
     font-size: larger;
     font-weight: 900;
 }
+
+div.logo {
+    text-align: center;
+    max-width: 100%;
+}
