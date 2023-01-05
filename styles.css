@@ -189,3 +189,9 @@ footer {
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 950px) {
+    .banner .welcome h2 {
+        font-size: 40px;
+    }
+}
